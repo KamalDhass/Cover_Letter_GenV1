@@ -15,18 +15,20 @@ generateBtn.addEventListener('click', async () => {
         return;
     }
 
-    const prompt = `Create a cover letter in french with the following job description and curriculum vitae data
+    const prompt = `Act as a Expert Cover letter writer, Now Create a Persuasive professional cover letter in french, 
+    matching the following job description and curriculum vitae data. 
+    Show the recruiter how my current skills and experiences will help me suceed in the role. Also showcase my achievements.
+    
+    job description: ${jobDescText}. 
 
-job description: ${jobDescText}. 
-
-curriculum vitae data: ${cvFileText}`;
+    curriculum vitae data: ${cvFileText}`;
 
     // Replace <your_api_key> with your actual API key
     const response = await fetch('https://api.openai.com/v1/engines/text-davinci-003/completions', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
-            'Authorization': 'Bearer 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'
+            'Authorization': 'Bearer Your_API_Key'
         },
         body: JSON.stringify({ prompt: prompt, max_tokens: 1000, n: 1, stop: null, temperature: 0.7 })
     });
