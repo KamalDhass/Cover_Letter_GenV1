@@ -19,7 +19,7 @@ The Cover Letter Generator is a web-based application that helps users create a 
 
 1. Open the `index.html` file in a web browser.
 2. Enter the job description in the provided text box.
-3. Upload your curriculum vitae in text format (.txt) using the file input.
+3. Upload your curriculum vitae in text format (.txt) using the file input. ( Use the already available cuuriculum_vitae as reference)
 4. Click the "Generate Cover Letter" button.
 5. View the generated cover letter in the "Generated Cover Letter" text box.
 
