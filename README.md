@@ -1,12 +1,12 @@
 # Cover Letter Generator V1
 
-The Cover Letter Generator is a web-based application that helps users create a personalized cover letter based on a job description and their curriculum vitae. The app uses the OpenAI GPT-3 API to generate a tailored cover letter.
+The Cover Letter Generator is a web-based application that helps users create a personalized cover letter based on a job description and their curriculum vitae. The app uses the OpenAI GPT API to generate a tailored cover letter.
 
 ## Features
 
 - Enter a job description in a text box
 - Upload a curriculum vitae in a text file format
-- Generate a cover letter using GPT-3
+- Generate a cover letter using GPT-4
 - Display the generated cover letter in a separate text box
 
 ## Installation
