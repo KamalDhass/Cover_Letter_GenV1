@@ -1,27 +1,47 @@
+/* Set dark theme colors */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    padding: 20px;
+    background-color: #212529;
+    color: #f1f1f1;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 16px;
 }
 
-label {
-    font-weight: bold;
-    margin-top: 10px;
+h1 {
+    font-size: 2rem;
+    margin-bottom: 16px;
+    text-align: center;
+    padding-top: 16px;
 }
 
-textarea {
-    resize: none;
+.form-control {
+    background-color: #343a40;
+    border-color: #495057;
 }
 
-button {
-    margin-top: 10px;
+.form-control:focus {
+    border-color: #495057;
+    box-shadow: 0 0 0 0.2rem rgba(97, 218, 251, 0.25);
 }
 
-.output {
-    margin-top: 30px;
+textarea[readonly] {
+    background-color: #444;
+    color: #f1f1f1;
+}
+
+button.btn-primary {
+    background-color: #61dafb;
+    border-color: #61dafb;
+}
+
+button.btn-primary:hover {
+    background-color: #4fc3f7;
+    border-color: #4fc3f7;
+}
+
+button.btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(97, 218, 251, 0.5);
 }
